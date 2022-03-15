@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            background-color: blueviolet;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: lighter;
+            font-size: 1.5rem;
+        }
+    </style>
+    login page
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                sign up
+            </legend> FULLNAME:
+            <input type="text" name="name" placeholder="fullname" required>
+            <br> DATE OF BIRTH:
+            <input type="date">
+            <br> OCCCUPATION:
+            <input type="text" name="occupation" placeholder="robotics engineer" required>
+            <br>
+            <filedset>
+                <legend>GENDER</legend>
+                <input type="radio" name="gender" value="male" id="male"><br>
+                <label for="male">m</label>
+                <input type="radio" name="gender" value="female" id="female">
+                <br><label for="female">f</label>
+                <input type="radio" name="gender" value="other" id="other">
+                <br><label for="other">other</label>
+            </filedset>
+            <br> EMAIL
+            <input type="email" name="email" placeholder="email" required>
+            <br> PHONE NUMBER
+            <input type="text" pattern="\d*" name="number" placeholder="phone number" required>
+            <br> ADDRESS
+            <input type="text" name="address" placeholder="UNIZIK, AWKA" required>
+            <br>PASSWORD
+            <input type="password" pattern="\d*" name="number" placeholder="password" title="only numeric" required>
+            <br>CONFIRM PASSWORD
+            <input type="password" patttern="\d*" name="number" placeholder="confirm password" required>
+            <br>
+            <input type="submit" value="register">
+        </fieldset>
+
+    </form>
+    <form>
+        <fieldset>
+            <legend>LOGIN HERE</legend>
+            USERNAME<br>
+            <input type="text" name="name" placeholder="username" required>
+            <br>PASSWORD<br>
+            <input type="text" name="number" pattern="\d*" placeholder="numeral">
+            <br>
+            <input type="submit" value="log in">
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
